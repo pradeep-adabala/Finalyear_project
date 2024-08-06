@@ -1,0 +1,16 @@
+<!-- profile_detection/templates/AdminScreen.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Screen</title>
+</head>
+<body>
+    <h1>Welcome, Admin</h1>
+    <p>{{ data }}</p>
+    <a href="{% url 'generate_model' %}">Generate Model</a>
+    <br>
+    <a href="{% url 'view_train' %}">View Training Data</a>
+    <br>
+    <a href="{% url 'index' %}">Logout</a>
+</body>
+</html>
